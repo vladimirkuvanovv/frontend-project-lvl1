@@ -6,3 +6,9 @@ brain-games:
 
 publish:
 	npm publish --dry-run
+
+lint-fix:
+	npx eslint --fix .
+
+lint:
+	npx eslint .
