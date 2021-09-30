@@ -11,4 +11,5 @@ lint-fix:
 	npx eslint --fix .
 
 lint:
+	eslint --init
 	npx eslint .
