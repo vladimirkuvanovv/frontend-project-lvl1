@@ -9,8 +9,8 @@ const runEngine = (game, question) => {
 
   console.log(question);
 
-  let number; let
-    rightAnswer;
+  let number;
+  let rightAnswer;
 
   for (let i = 0; i < ATTEMPTS_COUNT; i += 1) {
     [number, rightAnswer] = game();
