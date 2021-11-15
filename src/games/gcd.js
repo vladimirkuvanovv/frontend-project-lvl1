@@ -4,7 +4,7 @@ const MIN_VALUE = 0;
 const MAX_VALUE = 100;
 const question = 'Find the greatest common divisor of given numbers.';
 
-const getRandomInt = (min, max) => +Math.floor(Math.random() * (max - min)) + min;
+const getRandomNumber = (min, max) => +Math.floor(Math.random() * (max - min)) + min;
 
 const getGcd = (firstNumber, secondNumber) => {
   let firstNum = firstNumber;
@@ -23,8 +23,8 @@ const getGcd = (firstNumber, secondNumber) => {
 
 const runGcdGame = () => {
   const getDataForRound = () => {
-    const firstNumber = getRandomInt(MIN_VALUE, MAX_VALUE);
-    const secondNumber = getRandomInt(MIN_VALUE, MAX_VALUE);
+    const firstNumber = getRandomNumber(MIN_VALUE, MAX_VALUE);
+    const secondNumber = getRandomNumber(MIN_VALUE, MAX_VALUE);
     const gameExpression = `${firstNumber} ${secondNumber}`;
     const rightAnswer = String(getGcd(firstNumber, secondNumber));
     return [gameExpression, rightAnswer];
