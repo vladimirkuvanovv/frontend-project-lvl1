@@ -1,5 +1,5 @@
 {
-  "name": "@braingames/games",
+  "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/vladimirkuvanovv/frontend-project-lvl1/workflows/hexlet-check/badge.svg?branch=)](https://github.com/vladimirkuvanovv/frontend-project-lvl1/actions?query=branch:)",
   "main": "index.js",
