@@ -12,7 +12,7 @@ const question = 'What number is missing in the progression?';
 const getRandomNumber = (min, max) => +Math.floor(Math.random() * (max - min)) + min;
 
 const getProgression = (firstNumber, topNumber, step) => {
-  let progression = [];
+  const progression = [];
   for (let i = firstNumber; i < topNumber && progression.length <= PROGRESSION_LENGTH; i += step) {
     progression.push(i);
   }
